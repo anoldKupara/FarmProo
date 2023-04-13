@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FarmPro.Application.Contracts.Infrastructure
 {
-    public interface IAnimalRepository : IGenericRepository<Animal>
+    public interface IEggRepository : IGenericRepository<Egg>
     {
     }
 }
