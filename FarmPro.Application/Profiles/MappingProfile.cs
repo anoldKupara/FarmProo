@@ -3,6 +3,8 @@ using FarmPro.Application.DTOs.Animals;
 using FarmPro.Application.DTOs.Eggs;
 using FarmPro.Application.DTOs.Feed;
 using FarmPro.Application.DTOs.FeedConsumptions;
+using FarmPro.Application.DTOs.Mortalities;
+using FarmPro.Application.DTOs.Sales;
 using FarmPro.Application.DTOs.Vaccines;
 using FarmPro.Domain.Entities;
 using System;
@@ -22,6 +24,8 @@ namespace FarmPro.Application.Profiles
             CreateMap<Vaccine, VaccineDto>().ReverseMap();
             CreateMap<FeedConsumption, FeedConsumptionDto>().ReverseMap();
             CreateMap<Egg, EggDto>().ReverseMap();
+            CreateMap<Mortality, MortalityDto>().ReverseMap();
+            CreateMap<Sale, SaleDto>().ReverseMap();
         }
     }
 }
