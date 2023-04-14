@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FarmPro.Application.DTOs.FeedConsumption
+namespace FarmPro.Application.DTOs.FeedConsumptions
 {
     public class FeedConsumptionDto
     {

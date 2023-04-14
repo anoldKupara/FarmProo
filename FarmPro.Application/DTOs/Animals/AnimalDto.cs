@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FarmPro.Application.DTOs.Animal
+namespace FarmPro.Application.DTOs.Animals
 {
     public class AnimalDto
     {

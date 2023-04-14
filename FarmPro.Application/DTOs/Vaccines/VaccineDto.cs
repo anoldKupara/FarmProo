@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FarmPro.Application.DTOs.Vaccine
+namespace FarmPro.Application.DTOs.Vaccines
 {
     public class VaccineDto
     {
