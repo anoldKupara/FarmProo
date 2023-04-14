@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FarmPro.Application.DTOs.Animal;
 using FarmPro.Application.DTOs.Feed;
+using FarmPro.Application.DTOs.FeedConsumption;
 using FarmPro.Application.DTOs.Vaccine;
 using FarmPro.Domain.Entities;
 using System;
@@ -18,6 +19,7 @@ namespace FarmPro.Application.Profiles
             CreateMap<Animal, AnimalDto>().ReverseMap();
             CreateMap<Feed, FeedDto>().ReverseMap();
             CreateMap<Vaccine, VaccineDto>().ReverseMap();
+            CreateMap<FeedConsumption, FeedConsumptionDto>().ReverseMap();
         }
     }
 }

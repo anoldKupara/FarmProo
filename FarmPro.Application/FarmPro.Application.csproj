@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="DTOs\Mortality\" />
-    <Folder Include="DTOs\FeedConsumption\" />
     <Folder Include="DTOs\Egg\" />
     <Folder Include="DTOs\Sale\" />
     <Folder Include="Exceptions\" />
